@@ -12,7 +12,9 @@ LOMBOK
 H2 DATABASE
 ```
 Como um CRUD você pode adicionar filmes com suas informações principais e editá-las.
-O projeto faz uso do H2 DataBase do próprio Spring para criar banco de dados temporário no momento que é iniciado a aplicação e depois ele é exlcuído no entanto nada impede de utilizar um banco de dados próprio para o projeto ou até mesmo um contêiner docker e por último configurar migrations para criação de tabelas.
+O projeto faz uso do H2 DataBase do próprio Spring para criar banco de dados temporário no momento que é iniciado a aplicação e depois ele é exlcuído no entanto nada impede de utilizar um banco de dados próprio para o projeto ou até mesmo um contêiner docker e por último configurar migrations para criação de tabelas (poderia usar o flyway por exemplo).
+
+Os arquivos do front-end se encontram na pasta 'static' no path 'src/main/resources/static'. Front-end foi feito com html, css e javaescript puro mas poderia ser utilizado alguma library como React.JS ou Framework como Next.JS (que inclusive possuo sites online utilizando este framwork).
 
 ### OBSERVAÇÃO
 O projeto não possui uma classe 'Service' separada pois eu optei por colocá-las direta no Controller. Uma boa prática seria separa-lá no entanto, por se tratar de um projeto pequeno eu preferi aderir a esta solução.
